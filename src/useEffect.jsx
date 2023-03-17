@@ -38,3 +38,5 @@ const Effect = () => {
         console.log('re-render');
     })
 };
+
+export default Effect;
