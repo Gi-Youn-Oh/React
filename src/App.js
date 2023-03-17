@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-// import RefTest from "./useRef";
-// import Test from "./useRef2"
-// import RefAsDidUpdate from "./useRef3"
-// import Lotto from './useMemo'
-// import Callback from "./useCallback";
-// import Effect from "./useEffect";
-import GrandParent from "./useContext";
+// import RefTest from "./useRef/useRef";
+// import Test from "./useRef/useRef2"
+// import RefAsDidUpdate from "./useRef/useRef3"
+// import Lotto from './useMemo/useMemo'
+// import Callback from "./useCallback/useCallback";
+// import Effect from "./useCallback/useEffect";
+// import GrandParent from "./useContext/useContext";
+// import Counter from './useReducer/UseReducer'
+import Reducer from "./useReducer/Reducer";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,9 @@ function App() {
       {/*  <Lotto />*/}
       {/*  <Callback name={'name'} age={30} lang={''}/>*/}
       {/*  <Effect />*/}
-        <GrandParent/>
+      {/*  <GrandParent/>*/}
+      {/*  <Counter/>*/}
+        <Reducer/>
     </div>
   );
 }
